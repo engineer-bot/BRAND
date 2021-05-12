@@ -5,13 +5,30 @@
     max-width: 1140px;
     margin: 0 auto;
 }
-
-
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
 
 .Header {
     height: 151px;
 }
-
+.Header .container {
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+}
+.Header .container div {
+    height: 100%;
+}
 
 .Slider{
     background-image: url(/img/slider-back.png);
