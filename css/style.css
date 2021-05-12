@@ -1,0 +1,25 @@
+.x{
+    max-width: 1600px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+.Header {
+    height: 151px;
+}
+
+
+.Slider{
+    background-image: url(/img/slider-back.png);
+    height: 614px;
+    
+}
+.Slider .container {
+    background-image: url(/img/Layer_24.png);
+
+    height: 100%;
+}
