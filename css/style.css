@@ -4,12 +4,15 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    
 }
 .flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 .grid {
     display: grid;
@@ -17,6 +20,12 @@
     align-items: center;
     height: 100%;
     
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 
 .Header {
@@ -28,6 +37,16 @@
 }
 .Header .container div {
     height: 100%;
+}
+/* .Header .botHeader {
+    max-width: 680px;
+
+} */
+.Header ul {
+    justify-content: space-between;
+    max-width: 680px;
+    margin: 0 auto;
+    
 }
 
 .Slider{
