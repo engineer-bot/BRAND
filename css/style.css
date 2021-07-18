@@ -1,13 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
- */
-
-
 
 
 *{
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
+
 
 .x{
     /* max-width: 1600px; */
@@ -15,7 +13,7 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    
+    padding: 0 40px;
 }
 .flex {
     display: flex;
@@ -66,19 +64,15 @@ img {
 }
 
 
-/* .botHeader{
-    width: 1600px;
-} */
+
 .botHeader ul {
     justify-content: space-between;
     max-width: 680px;
     margin: 0 auto;
-    /* margin-left: 230px;
-    margin-right: 230px; */
 }
 
 
-
+/* topHeader */
 
 
 .topHeader{
@@ -179,7 +173,7 @@ img {
 
 
 
-
+/* Slider */
 
 
 .Slider{
@@ -201,7 +195,7 @@ img {
     margin-top: -51px;
 }
 
-
+/* Category */
 
 .Category .grid {
     grid-template-columns: repeat(2, 570px);
@@ -265,42 +259,33 @@ img {
     width: 261px;
     height: 342px;
 }
+.Product .btn {
+    width: 212px;
+    height: 48px;
+    background-color: #f16d7f;
+    margin: 0 auto;
+    padding: 18px 42px 18px 24px;
+}
+
+
+.Feature .container {
+    background-image: url(/img/feature/background_1311.png);
+    height: 529px;
+    margin-top: 113px;
+    padding: 0 0;
+}
+.Feature .img {
+    background-image: url(/img/feature/feat_img.png);
+    height: 100%;
+    background-size: cover;
+    margin-right: 373px;
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .topHeader .brand {
-    Style for "BRAND"
-    width: 93px;
-    height: 19px;
-    color: #222222;
-    font-family: Lato;
-    font-size: 27px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 32px;
-    text-align: center;
-    text-transform: uppercase;
-} */
 .x .topHeader .brand{
     width: 93px;
     height: 19px;
@@ -309,41 +294,29 @@ img {
 }
 
 #bran{
-    color: #222222;
     font-family: Lato;
-    font-size: 27px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 32px;
-    text-align: center;
-    text-transform: uppercase;
-
-    font-family: "Lato Light";
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: 0.68px;
-    line-height: normal;
+font-size: 27px;
+line-height: 32px;
+font-weight: 300;
+text-transform: uppercase;
+letter-spacing: 0.025em;
+color: #222222;
 }
 
 
 #D { 
-    color: #222222;
     font-family: Lato;
     font-size: 27px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 32px;
-    text-align: center;
+    font-weight: 300;
     text-transform: uppercase;
-
+    letter-spacing: 0.025em;
+    color: #222222;
+    /*
+    Text styles for "D"
+    */
+    font-weight: 900;
     color: #f16d7f;
-    font-family: "Lato - Black";
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0.68px;
-    line-height: normal;
 }
 
 .browse {
