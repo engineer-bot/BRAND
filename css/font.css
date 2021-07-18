@@ -27,10 +27,30 @@
 
 
 
-.Product .btn {
+.Product .btn p{
     font-family: Lato;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #ffffff;
+}
+
+
+
+.Feature .right h2 {
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
+}
+
+.Feature .right p{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #fbfbfb;
 }
