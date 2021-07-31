@@ -335,10 +335,37 @@ img {
 
 
 .Subscribe {
-    background-image: ;
+    
+    margin: 0 auto;
+    height: 438px;
+    margin-top: 97px;
+    max-width: 1600px;
+    background-image: url(/img/subs/rectangle_9_2194.png);
+    
 }
 
-
+.Subscribe .container {
+    padding: 0;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+.Subscribe .left{
+    position: absolute;
+    top: 111px;
+    max-width: 497px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+}
+.Subscribe .left img{
+    height: 83px;
+    width: 83px;
+    margin-right: 28px;
+    
+}
+.Subscribe .left p{
+    
+}
 
 
 
