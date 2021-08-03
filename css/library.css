@@ -11,3 +11,20 @@
     padding-bottom: 16px;
     background-color: #ffffff;
 }
+
+
+.breadcrumb {
+    background-color: #f8f3f4;
+    height: 148px;
+}
+
+
+.itemCards {
+    width: 263px;
+    height: 364px;
+}
+.itemCards p{
+    margin-top: 18px;
+    margin-left: 15px;
+    text-align: start;
+}
